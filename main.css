@@ -1,0 +1,415 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;*/
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+/**Navbar**/
+.navbar{
+    background-color: white;
+    height:4rem;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    box-shadow: 1px 1px 4px rgb(141, 141, 141);
+   /* position: fixed;*/
+    width: 100%;
+    /*top:0px;*/
+ 
+}
+.nav-right-bar{
+    display:none;
+}
+.nav-text{
+    font-size:1.5rem;
+    font-weight: 900;
+    font-family:'', Courier, monospace;
+}
+.right  {
+   
+    font-size:1rem;
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:60%;
+    margin:0rem 3rem;
+    display: flex;
+   justify-content: space-around;
+}
+.right a{
+    text-decoration: none;
+}
+.left{
+    width:40%;
+}
+/**Middle**/
+
+.maindisplay{
+
+    background-color: white;
+    margin-top:12px ;
+    align-items: center;
+    padding:3rem 50px 70px 50px ;
+   
+    /*background-image: url("https://img.freepik.com/premium-photo/distribution-black-lines-dots-white-space-digital-background-data-network-connection-3d-rendering_745045-56.jpg?w=2000");*/
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+.mid-head{
+    
+    color:rgb(25 25 96);
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mid-left{
+    float:left;
+    width:60%; 
+}
+
+.photo{
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 4px 5px 4px rgb(45, 45, 45);
+}
+
+.mid-info{
+    font-size: 2rem;
+    color:rgb(27, 27, 27);
+   font-weight: bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mid-element{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color:rgb(255, 38, 38);
+}
+.about-btn{
+    cursor:pointer;
+    border: none;
+    box-shadow: 1px 5px 4px rgb(108, 111, 255);
+    border-radius: 20px;
+    color:white;
+    font-size: 1.2rem;
+    padding:10px;
+    background-color: rgb(61, 61, 255);
+    text-align: center;
+    align-items: center;
+}
+.mid-text{
+    margin-bottom: 2rem;
+}
+.icons{
+    margin-top: 1rem;
+
+}
+.icon{
+    overflow: hidden;
+    height:2rem;
+    margin-left: 0.5rem;
+    border-radius:50%;
+}
+/**Banner**/
+.banner{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,15,125,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    height:200px;
+    background-size: contain;
+    
+   
+   
+}
+.ban-head{
+    padding-top: 0.9rem;
+    text-align: center;
+    color:white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.ban-logo{
+   
+}
+.ban-bottom{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+/**About**/
+.about{
+    padding:30px;
+    background-color: rgb(187, 251, 251);
+   
+    transition: transform .2s;
+}
+
+.about-head{
+
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(0, 47, 255);
+}
+
+.about-main{
+    margin:30px;
+    background-color: white;
+    overflow: hidden;
+    border-radius:20px;
+    display: flex;
+  
+
+    
+}
+.about-left{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:3rem;
+ width:50%;
+}
+.about-right{
+
+    border-left:20px solid gold;
+    padding:3rem;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:50%;
+    text-align: center;
+    background-color: rgb(169, 213, 252);
+}
+.about-svg:hover{
+    overflow: hidden;
+    transform: scale(1.2); 
+    outline: rgb(255, 181, 45) solid 5px;
+    
+}
+.about-svg{
+    
+    transition: transform .2s;
+    height:15rem;
+}
+/**Skill**/
+
+.skill{
+    padding:2rem;
+    background-color: rgb(255, 224, 167);
+}
+.skill-head{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(0, 47, 255);
+}
+.main-skill{
+    overflow: hidden;
+    margin:20px; 
+    background-color: rgb(255, 190, 255);
+    border-radius:20px;
+    display: flex;
+}
+.skill-left{
+    padding:3rem;
+    width:50%;
+    text-align: center;
+    background-color:rgb(156, 200, 239);
+    
+}
+.skill-right{
+    border-left:20px solid gold;
+    padding:3rem;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:50%;
+  
+}
+.skill-right ul li{
+margin-top:1rem;
+}
+
+/**Education**/
+.education{
+    background-color: rgb(143, 251, 255);
+    padding:2rem;
+}
+.edu-head{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(0, 47, 255);
+}
+.main-edu{
+    overflow: hidden;
+    margin:20px; 
+    background-color: rgb(255, 190, 255);
+    border-radius:20px;
+    display: flex;
+
+
+}
+.left-edu{
+    width:50%;  
+    padding: 3rem;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.right-edu{
+    border-left:20px solid gold;
+    padding:3rem;
+    width:50%;
+    text-align: center;
+    background-color:rgb(156, 200, 239);
+}
+.left-edu ul li{
+    margin-top: 1rem;
+}
+
+/**Projects**/
+.projects{
+    padding:2rem;
+    background-color: rgb(255, 224, 167);
+}
+.project-head{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(0, 47, 255);
+}
+.main-project{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin:20px;
+    border-radius: 20px;
+    background-color: rgb(255, 190, 255);
+    padding:2rem;
+}
+.proj-table{
+    border-color: white;
+
+    border-collapse: collapse;
+}
+.proj-table td {
+    font-size: 1.2rem;
+    padding: 12px 60px ;
+    
+}
+.proj-table tr:hover{
+    background-color: aliceblue;
+    box-shadow: 2px 2px 4px black;
+}
+.proj-table th{
+    font-size: 1.4rem;
+    padding:2rem;
+    color:purple;
+}
+
+/**Contact**/
+.contact{
+    padding:2rem;
+    background-color:rgb(255 250 217);
+}
+.contact-head{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(0, 47, 255);
+
+}
+.contact-main{
+   display: flex;
+   justify-content: space-around;
+   
+}
+.cont-mail{
+    text-align: center;
+    display: flex;
+   color:rgb(59, 55, 55);
+    align-items: center;
+    font-size: 1.4rem;
+   
+}
+.cont-phone{
+    color:rgb(59, 55, 55);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/**Footer**/
+.footer{
+    border-top: 2px solid white;
+    
+    background-color: #ebeaea;
+}
+.foot-top{
+   text-align: center;
+    padding:0rem 20rem 2rem;
+    font-size: 1rem;
+
+}
+.foot-top ul{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+/**Connect Us**/
+.connectus{
+    padding:2rem 1rem 4rem;
+    background-color: #f8f8fd;;
+}
+.connect-head{
+    text-align: center;
+  
+}
+.connect-fsthead{
+    font-weight: bold;
+    font-family: Barlow;
+    letter-spacing: 0.00rem;
+    color:#484646;
+    font-size: 1.7rem;
+}
+.connect-sechead {
+    font-size:1.4rem;
+    color:blue;
+
+}
+.connect-main{
+    padding-top: 1rem;
+    font-size:1.2rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+/**Media Querry**/
+@media only screen and (max-width: 1300px) {
+    
+    .maindisplay{
+        justify-content: center;
+      
+        flex-direction: column-reverse;
+    }
+    .mid-right img{
+        height:200px;
+    }
+   .ban-bottom img{
+    width:130px;
+   }
+  
+  }
