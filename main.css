@@ -4,9 +4,9 @@ body{
   
 
     align-items: center;
-    display: flex;
+    display: flex;/*
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: column;*/
      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
 }
 /**Navbar**/
@@ -73,7 +73,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .mid-left{
-    float:left;
+    
     width:60%; 
 }
 
@@ -137,9 +137,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-.ban-logo{
-   
-}
+
 .ban-bottom{
     display: flex;
     justify-content: space-around;
