@@ -2,11 +2,12 @@ body{
     margin: 0;
     padding: 0;
   
-
+    
     align-items: center;
-    display: flex;/*
+    display: flex;
     justify-content: space-between;
-    flex-direction: column;*/
+    flex-direction: column;
+    background-repeat: no-repeat;
      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
 }
 /**Navbar**/
@@ -78,6 +79,7 @@ body{
 }
 
 .photo{
+    height:20rem;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 4px 5px 4px rgb(45, 45, 45);
@@ -142,6 +144,10 @@ body{
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
+}
+.ban-bottom a img{
+    height:4rem;
+    width:9rem;
 }
 
 /**About**/
@@ -359,7 +365,7 @@ margin-top:1rem;
 }
 .foot-top{
    text-align: center;
-    padding:0rem 20rem 2rem;
+    padding:0rem 0rem 2rem;
     font-size: 1rem;
 
 }
@@ -402,6 +408,10 @@ margin-top:1rem;
 
 /**Media Querry**/
 @media only screen and (max-width: 1300px) {
+    .body{
+        justify-content:center;
+        flex-direction: column;
+    }
     .navbar{
         align-items: center;
         flex-direction: column;
@@ -411,11 +421,9 @@ margin-top:1rem;
       
         flex-direction: column-reverse;
     }
-    .mid-right img{
-        height:200px;
-    }
-   .ban-bottom img{
-    width:130px;
+   
+   .ban-bottom a img{
+    
    }
   
   }
